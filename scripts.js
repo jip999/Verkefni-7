@@ -2,7 +2,6 @@
  * Skæri, blað, steinn.
  * Spilað gegnum console.
  */
-
 const MAX_BEST_OF = 10;
 let wins = 0;
 let losses = 0;
