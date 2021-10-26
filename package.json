@@ -2,12 +2,16 @@
   "name": "verkefni-7",
   "version": "1.0.0",
   "scripts": {
-    "dev": "browser-sync start --server --files scripts.js index.html"
+    "dev": "browser-sync start --server --files scripts.js index.html",
+    "copy": "cpy index.html scripts.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.5"
+  },
+  "dependencies": {
+    "cpy": "^8.1.2"
   }
 }
